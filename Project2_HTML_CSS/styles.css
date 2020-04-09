@@ -57,7 +57,13 @@ main {
 }
 .price-card .main_name {
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 43px;
+}
+.price-card .second_name {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
 }
 .price-card .price-card__price {
   position: relative;
@@ -99,11 +105,16 @@ main {
   font-weight: bold;
 }
 .price-card .price-card__description {
+  display: flex;
   position: absolute;
   top: 275px;
+  bottom: 459px;
   left: 26px;
   right: 26px;
   text-align: center;
+}
+.price-card .price-card__description_item {
+  margin: auto;
 }
 .price-card .price-card__options-list {
   display: flex;
@@ -136,6 +147,7 @@ main {
   width: 155px;
   height: 40px;
   border-radius: 20px;
+  font-size: 14px;
   color: white;
   outline: none;
   border: transparent;
@@ -148,6 +160,10 @@ main {
 }
 .price-card .btn_3 {
   background: #EC632A;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {
