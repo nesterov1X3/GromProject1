@@ -124,7 +124,6 @@ body{
         }
         .describe_item:nth-child(odd) {
             background: #2A3438;
-            opacity: .5;
         }
 
         .describe_item{ 
@@ -152,6 +151,8 @@ body{
             height: 40px;
             border-radius: 20px;
             color: white;
+            outline: none;
+            border: transparent;
         }
         .btn_1{
             background: #5BB189;

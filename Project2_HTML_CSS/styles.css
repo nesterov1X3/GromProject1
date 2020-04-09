@@ -113,7 +113,6 @@ main {
 }
 .price-card .describe_item:nth-child(odd) {
   background: #2A3438;
-  opacity: 0.5;
 }
 .price-card .describe_item {
   position: relative;
@@ -138,6 +137,8 @@ main {
   height: 40px;
   border-radius: 20px;
   color: white;
+  outline: none;
+  border: transparent;
 }
 .price-card .btn_1 {
   background: #5BB189;
