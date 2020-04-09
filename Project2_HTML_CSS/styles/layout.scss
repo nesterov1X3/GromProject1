@@ -1,13 +1,15 @@
 body{
     background-color: black;
-    display: flex;
+    // display: flex;
     height: 100vh;
 }
      main{
         display: flex;
-        margin: auto;
+        align-items: center;
+         justify-content: center;
+        
      }
-     .blocks{
+     .price-card{
          position: relative;
          width: 380px;
          height: 770px;
@@ -61,7 +63,7 @@ body{
         .second_name{
             
         }
-        .image_first{
+        .price-card__price{
             position: relative;
             height: 105px;
             width: 100%;
@@ -119,7 +121,7 @@ body{
             text-align: center;
         }
          
-        .container_item{
+        .price-card__options-list{
             display: flex;
             flex-direction: column;
             position: absolute;
@@ -151,6 +153,7 @@ body{
             width: 155px;
             height: 40px;
             border-radius: 20px;
+            color: white;
         }
         .btn_1{
             background: #5BB189;
