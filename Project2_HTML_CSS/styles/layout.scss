@@ -66,8 +66,10 @@ body{
             position: relative;
             height: 105px;
             width: 100%;
+            
+        }
+        .image_first{
             background-color: #5BB189;
-
         }
         .image_first_item{
           position:absolute;
@@ -79,9 +81,6 @@ body{
         }
         
         .image_second{
-            position: relative;
-            height: 105px;
-            width: 100%;
             background: #3A6BA5;
         }
         .image_second_item{
@@ -93,11 +92,7 @@ body{
         }
         
         .image_third{
-            position: relative;
-            height: 105px;
-            width: 100%;
             background: #EC632A;
-
         }
         .image_third_item{
             position:absolute;

@@ -63,6 +63,8 @@ main {
   position: relative;
   height: 105px;
   width: 100%;
+}
+.price-card .image_first {
   background-color: #5BB189;
 }
 .price-card .image_first_item {
@@ -73,9 +75,6 @@ main {
   transform: translate(-50%, -50%);
 }
 .price-card .image_second {
-  position: relative;
-  height: 105px;
-  width: 100%;
   background: #3A6BA5;
 }
 .price-card .image_second_item {
@@ -86,9 +85,6 @@ main {
   transform: translate(-50%, -50%);
 }
 .price-card .image_third {
-  position: relative;
-  height: 105px;
-  width: 100%;
   background: #EC632A;
 }
 .price-card .image_third_item {
