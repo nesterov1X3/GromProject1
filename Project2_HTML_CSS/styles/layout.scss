@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background: #141B1C;
     display: flex;
     height: 100vh;
 }
@@ -127,7 +127,11 @@ body{
             top: 351px;
             
         }
-        
+        .describe_item:nth-child(odd) {
+            background: #2A3438;
+            opacity: .5;
+        }
+
         .describe_item{ 
             position: relative;
             height: 50px;

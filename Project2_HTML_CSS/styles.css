@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: #141B1C;
   display: flex;
   height: 100vh;
 }
@@ -114,6 +114,10 @@ main {
   flex-direction: column;
   position: absolute;
   top: 351px;
+}
+.price-card .describe_item:nth-child(odd) {
+  background: #2A3438;
+  opacity: 0.5;
 }
 .price-card .describe_item {
   position: relative;
