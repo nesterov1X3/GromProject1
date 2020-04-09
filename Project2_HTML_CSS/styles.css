@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  margin: auto;
+}
+
+.blocks {
+  position: relative;
+  width: 380px;
+  height: 770px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-right: 18px;
+}
+.blocks .block__part {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 130px;
+  align-items: center;
+  justify-content: center;
+}
+.blocks .popular_item {
+  position: absolute;
+  width: 147px;
+  height: 25px;
+  background: #DC3F45;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0%;
+  left: 79.5%;
+  bottom: 14.71%;
+  top: 34.29%;
+}
+.blocks .pupular_item_into {
+  position: relative;
+}
+.blocks .popular_word {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 15px;
+}
+.blocks .price-card__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.blocks .main_name {
+  font-size: 35px;
+  font-weight: bold;
+}
+.blocks .image_first {
+  position: relative;
+  height: 105px;
+  width: 100%;
+  background-color: #5BB189;
+}
+.blocks .image_first_item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.blocks .image_second {
+  position: relative;
+  height: 105px;
+  width: 100%;
+  background: #3A6BA5;
+}
+.blocks .image_second_item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.blocks .image_third {
+  position: relative;
+  height: 105px;
+  width: 100%;
+  background: #EC632A;
+}
+.blocks .image_third_item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.blocks .image_price_99, .blocks .image_price_299, .blocks .image_price_599 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.blocks .price-card__description {
+  position: absolute;
+  top: 275px;
+  left: 26px;
+  right: 26px;
+  text-align: center;
+}
+.blocks .container_item {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 351px;
+}
+.blocks .describe_item {
+  position: relative;
+  height: 50px;
+  width: 380px;
+}
+.blocks .paragraf_item {
+  width: 300px;
+  position: absolute;
+  left: 59px;
+}
+.blocks .image_item {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+}
+.blocks .price-card__order-btn {
+  position: absolute;
+  left: 112px;
+  bottom: 40px;
+  width: 155px;
+  height: 40px;
+  border-radius: 20px;
+}
+.blocks .btn_1 {
+  background: #5BB189;
+}
+.blocks .btn_2 {
+  background: #3A6BA5;
+}
+.blocks .btn_3 {
+  background: #EC632A;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
