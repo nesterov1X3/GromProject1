@@ -1,23 +1,25 @@
-body {
-  background: #141B1C;
+.price-page {
+  position: relative;
+  width: 1440px;
+  height: 1000px;
   display: flex;
-  height: 100vh;
+  background: #141B1C;
+  color: #FFFFFF;
 }
 
-main {
+.price-tables {
   display: flex;
   margin: auto;
 }
-
-.price-card {
+.price-tables .price-card {
   position: relative;
-  width: 380px;
-  height: 770px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
+  width: 380px;
+  height: 770px;
 }
-.price-card .block__part {
+.price-tables .price-card__section {
   position: relative;
   display: flex;
   width: 100%;
@@ -25,7 +27,7 @@ main {
   align-items: center;
   justify-content: center;
 }
-.price-card .popular_item {
+.price-tables .price-card__item {
   position: absolute;
   width: 147px;
   height: 25px;
@@ -37,10 +39,10 @@ main {
   bottom: 14.71%;
   top: 34.29%;
 }
-.price-card .pupular_item_into {
+.price-tables .price-card__item-into {
   position: relative;
 }
-.price-card .popular_word {
+.price-tables .price-card__word {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -49,62 +51,62 @@ main {
   font-weight: bold;
   font-size: 15px;
 }
-.price-card .price-card__title {
+.price-tables .price-card__title {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
 }
-.price-card .main_name {
+.price-tables .price-card__main-name {
   font-size: 35px;
   font-weight: bold;
   line-height: 43px;
 }
-.price-card .second_name {
+.price-tables .price-card__second-name {
   font-size: 20px;
   line-height: 24px;
   font-weight: 300;
 }
-.price-card .price-card__price {
+.price-tables .price-card__price {
   position: relative;
   height: 105px;
   width: 100%;
 }
-.price-card .image_first {
+.price-tables .price-card__image-first {
   background-color: #5BB189;
 }
-.price-card .image_first_item {
+.price-tables .price-card__image-first-item {
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-.price-card .image_second {
+.price-tables .price-card__image-second {
   background: #3A6BA5;
 }
-.price-card .image_second_item {
+.price-tables .price-card__image-second-item {
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-.price-card .image_third {
+.price-tables .price-card__image-third {
   background: #EC632A;
 }
-.price-card .image_third_item {
+.price-tables .price-card__image-third-item {
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-.price-card .image_price_99, .price-card .image_price_299, .price-card .image_price_599 {
+.price-tables .price-card__image-price-99, .price-tables .price-card__image-price-299, .price-tables .price-card__image-price-599 {
   font-size: 55px;
   font-weight: bold;
 }
-.price-card .price-card__description {
+.price-tables .price-card__description {
   display: flex;
   position: absolute;
   top: 275px;
@@ -113,34 +115,34 @@ main {
   right: 26px;
   text-align: center;
 }
-.price-card .price-card__description_item {
+.price-tables .price-card__description_item {
   margin: auto;
 }
-.price-card .price-card__options-list {
+.price-tables .price-card__options-list {
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 351px;
 }
-.price-card .describe_item:nth-child(odd) {
+.price-tables .price-card__describe_item:nth-child(odd) {
   background: #2A3438;
 }
-.price-card .describe_item {
+.price-tables .price-card__describe_item {
   position: relative;
   height: 50px;
   width: 380px;
 }
-.price-card .paragraf_item {
+.price-tables .price-card__paragraf_item {
   width: 300px;
   position: absolute;
   left: 59px;
 }
-.price-card .image_item {
+.price-tables .price-card__image_item {
   position: absolute;
   top: 18px;
   left: 22px;
 }
-.price-card .price-card__order-btn {
+.price-tables .price-card__order-btn {
   position: absolute;
   left: 112px;
   bottom: 40px;
@@ -152,13 +154,13 @@ main {
   outline: none;
   border: transparent;
 }
-.price-card .btn_1 {
+.price-tables .price-card .btn_1 {
   background: #5BB189;
 }
-.price-card .btn_2 {
+.price-tables .price-card .btn_2 {
   background: #3A6BA5;
 }
-.price-card .btn_3 {
+.price-tables .price-card .btn_3 {
   background: #EC632A;
 }
 
