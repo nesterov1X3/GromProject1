@@ -35,11 +35,9 @@
             top: 27px;
             background: #dc3f45;
             transform: rotate(45deg);
-           
         }
         &__item-into {
             position: relative;
-            
         }
         &__word {
             position: absolute;
@@ -85,9 +83,11 @@
             margin-right: -50%;
             transform: translate(-50%, -50%);
         }
+
         &__image-second {
             background: #3a6ba5;
         }
+
         &__image-second-item {
             position: absolute;
             top: 50%;
@@ -95,9 +95,11 @@
             margin-right: -50%;
             transform: translate(-50%, -50%);
         }
+
         &__image-third {
             background: #ec632a;
         }
+
         &__image-third-item {
             position: absolute;
             top: 50%;
@@ -109,9 +111,19 @@
         &__image-price-first-into,
         &__image-price-second-into,
         &__image-price-third-into {
-            font-size: 55px;
+            // font-size: 55px;
+            // font-weight: bold;
+            /* 299€ */
+
+            font-family: Montserrat;
+            font-style: normal;
             font-weight: bold;
-            
+            font-size: 55px;
+            line-height: 67px;
+            /* identical to box height */
+            text-align: center;
+
+            color: #ffffff;
         }
 
         &__description {
@@ -135,9 +147,8 @@
         }
         &__describe_item:nth-child(odd) {
             background: #2a3438;
-            
         }
-        &__price-card__paragraf_item:nth-child(odd){
+        &__price-card__paragraf_item:nth-child(odd) {
             opacity: 0.5;
         }
         &__describe_item {
