@@ -1,10 +1,9 @@
 .price-page {
-  position: relative;
   width: 1440px;
   height: 1000px;
   display: flex;
-  background: #141B1C;
-  color: #FFFFFF;
+  background: #141b1c;
+  color: #ffffff;
 }
 
 .price-tables {
@@ -26,30 +25,31 @@
   height: 130px;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .price-tables .price-card__item {
+  overflow: hidden;
   position: absolute;
   width: 147px;
   height: 25px;
-  background: #DC3F45;
+  left: 276px;
+  top: 27px;
+  background: #dc3f45;
   transform: rotate(45deg);
-  position: absolute;
-  right: 0%;
-  left: 79.5%;
-  bottom: 14.71%;
-  top: 34.29%;
 }
 .price-tables .price-card__item-into {
   position: relative;
 }
 .price-tables .price-card__word {
   position: absolute;
+  height: 17px;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
   font-size: 15px;
+  line-height: 17px;
 }
 .price-tables .price-card__title {
   display: flex;
@@ -73,7 +73,7 @@
   width: 100%;
 }
 .price-tables .price-card__image-first {
-  background-color: #5BB189;
+  background-color: #5bb189;
 }
 .price-tables .price-card__image-first-item {
   position: absolute;
@@ -83,7 +83,7 @@
   transform: translate(-50%, -50%);
 }
 .price-tables .price-card__image-second {
-  background: #3A6BA5;
+  background: #3a6ba5;
 }
 .price-tables .price-card__image-second-item {
   position: absolute;
@@ -93,7 +93,7 @@
   transform: translate(-50%, -50%);
 }
 .price-tables .price-card__image-third {
-  background: #EC632A;
+  background: #ec632a;
 }
 .price-tables .price-card__image-third-item {
   position: absolute;
@@ -125,7 +125,7 @@
   top: 351px;
 }
 .price-tables .price-card__describe_item:nth-child(odd) {
-  background: #2A3438;
+  background: #2a3438;
 }
 .price-tables .price-card__describe_item {
   position: relative;
@@ -155,13 +155,13 @@
   border: transparent;
 }
 .price-tables .price-card .btn_1 {
-  background: #5BB189;
+  background: #5bb189;
 }
 .price-tables .price-card .btn_2 {
-  background: #3A6BA5;
+  background: #3a6ba5;
 }
 .price-tables .price-card .btn_3 {
-  background: #EC632A;
+  background: #ec632a;
 }
 
 * {
