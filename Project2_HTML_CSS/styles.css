@@ -102,7 +102,7 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-.price-tables .price-card__image-price-99, .price-tables .price-card__image-price-299, .price-tables .price-card__image-price-599 {
+.price-tables .price-card__image-price-first-into, .price-tables .price-card__image-price-second-into, .price-tables .price-card__image-price-third-into {
   font-size: 55px;
   font-weight: bold;
 }
