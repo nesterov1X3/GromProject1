@@ -127,6 +127,9 @@
 .price-tables .price-card__describe_item:nth-child(odd) {
   background: #2a3438;
 }
+.price-tables .price-card__price-card__paragraf_item:nth-child(odd) {
+  opacity: 0.5;
+}
 .price-tables .price-card__describe_item {
   position: relative;
   height: 50px;
@@ -171,6 +174,7 @@
 html {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 15px;
   color: white;
 }

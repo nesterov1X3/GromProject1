@@ -111,6 +111,7 @@
         &__image-price-third-into {
             font-size: 55px;
             font-weight: bold;
+            
         }
 
         &__description {
@@ -134,6 +135,10 @@
         }
         &__describe_item:nth-child(odd) {
             background: #2a3438;
+            
+        }
+        &__price-card__paragraf_item:nth-child(odd){
+            opacity: 0.5;
         }
         &__describe_item {
             position: relative;
