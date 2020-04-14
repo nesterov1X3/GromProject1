@@ -35,7 +35,6 @@
   align-items: center;
 }
 .price-page .price-card__item {
-  overflow: hidden;
   width: 147px;
   height: 25px;
   background: #dc3f45;
