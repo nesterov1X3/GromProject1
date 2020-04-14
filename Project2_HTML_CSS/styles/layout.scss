@@ -25,13 +25,19 @@
             justify-content: center;
             overflow: hidden;
         }
+        &__square{
+            width: 122px;
+            height: 123px;
+            position: absolute;
+            left: 276px;
+            bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
         &__item {
             overflow: hidden;
-            position: absolute;
             width: 147px;
             height: 25px;
-            left: 276px;
-            top: 27px;
             background: #dc3f45;
             transform: rotate(45deg);
             display: flex;
@@ -41,7 +47,8 @@
         
         &__word {
             font-weight: bold;
-            font-size: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
         }
 
         &__title {

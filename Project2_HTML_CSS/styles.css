@@ -25,13 +25,19 @@
   justify-content: center;
   overflow: hidden;
 }
+.price-page .price-card__square {
+  width: 122px;
+  height: 123px;
+  position: absolute;
+  left: 276px;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+}
 .price-page .price-card__item {
   overflow: hidden;
-  position: absolute;
   width: 147px;
   height: 25px;
-  left: 276px;
-  top: 27px;
   background: #dc3f45;
   transform: rotate(45deg);
   display: flex;
@@ -40,7 +46,8 @@
 }
 .price-page .price-card__word {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .price-page .price-card__title {
   display: flex;
