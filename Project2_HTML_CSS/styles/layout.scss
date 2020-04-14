@@ -1,6 +1,6 @@
 .price-page {
-    width: 1440px;
-    height: 1000px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     background: #141b1c;
     color: #ffffff;
@@ -8,7 +8,7 @@
 .price-tables {
     display: flex;
     margin: auto;
-    
+}
     .price-card {
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -141,5 +141,4 @@
             background: #ec632a;
         }
     }
-}
 }
