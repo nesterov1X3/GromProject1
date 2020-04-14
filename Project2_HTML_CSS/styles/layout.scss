@@ -51,7 +51,7 @@
             align-items: center;
             margin: 0;
             font-size: 35px;
-            font-weight: bold;
+            font-weight: 700;
             line-height: 43px;
         }
         
@@ -84,11 +84,7 @@
 
         &__description {
             display: flex;
-            position: absolute;
-            top: 275px;
-            bottom: 459px;
-            left: 26px;
-            right: 26px;
+            margin: 40px 26px;
             text-align: center;
         }
         &__description_item {
@@ -98,8 +94,6 @@
         &__options-list {
             display: flex;
             flex-direction: column;
-            position: absolute;
-            top: 351px;
         }
         &__describe_item:nth-child(odd) {
             background: #2a3438;
@@ -125,9 +119,11 @@
         }
 
         &__order-btn {
-            position: absolute;
-            left: 112px;
-            bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 112px;
+            margin-top: 39px;
             width: 155px;
             height: 40px;
             border-radius: 20px;
