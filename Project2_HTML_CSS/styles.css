@@ -10,7 +10,6 @@
   margin: auto;
 }
 .price-page .price-tables .price-card {
-  position: relative;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
@@ -94,19 +93,17 @@
   opacity: 0.5;
 }
 .price-page .price-tables .price-card__describe_item {
-  position: relative;
   height: 50px;
   width: 380px;
+  display: flex;
+  align-items: center;
 }
 .price-page .price-tables .price-card__paragraf_item {
   width: 300px;
-  position: absolute;
-  left: 59px;
+  margin-left: 59px;
 }
 .price-page .price-tables .price-card__image_item {
-  position: absolute;
-  top: 18px;
-  left: 22px;
+  margin-left: 22px;
 }
 .price-page .price-tables .price-card__order-btn {
   display: flex;
