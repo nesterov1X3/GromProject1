@@ -26,15 +26,14 @@
             overflow: hidden;
         }
         &__square{
-            width: 122px;
-            height: 123px;
+            // width: 122px;
+            // height: 123px;
             position: absolute;
-            left: 276px;
-            bottom: 25px;
-            display: flex;
-            align-items: center;
-        }
-        &__item {
+            left: 265px;
+            top: 25px;
+            // display: flex;
+            // align-items: center;
+
             width: 147px;
             height: 25px;
             background: #dc3f45;
@@ -42,12 +41,25 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        
-        &__word {
+
             font-weight: bold;
             font-size: 14px;
             text-transform: uppercase;
+        }
+        &__item {
+            // width: 147px;
+            // height: 25px;
+            // background: #dc3f45;
+            // transform: rotate(45deg);
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+        }
+        
+        &__word {
+            // font-weight: bold;
+            // font-size: 14px;
+            // text-transform: uppercase;
         }
 
         &__title {
